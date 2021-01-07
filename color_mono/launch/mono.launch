@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+        args="0.05 uvc_camera camera_node.launch"
+        name="timed_roslaunch2" />
+    <node pkg="color_mono" name="pub" type="pub.py" required="true" />
+    <node pkg="color_mono" name="sub" type="sub.py" required="true" />
+
+</launch>
