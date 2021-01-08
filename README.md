@@ -19,7 +19,7 @@ ROSを既にインストールしていて, ターミナルでroscoreを打っ�
 mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなども必要なく以下のコマンドを実行するだけで全部起動することができます。
 
     $roslaunch color_mono mono.launch
-## 二値化の閾値について
+## 二値化処理の閾値について
 sub.pyの12行目のmono = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)の125を0~255の間で任意に変化させることで白と黒の判定基準を自由に変更することができます。
 ## 動画のリンク
 https://youtu.be/yxHQgNMbwm8
