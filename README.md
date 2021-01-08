@@ -10,4 +10,9 @@ ROSを既にインストールしていて, ターミナルでroscoreを打っ�
 ### uvc_cameraパッケージのインストール
     $sudo apt-get install ros-melodic-uvc-camera
 ### 今回作成したパッケージのインストール
-    $git clone 
+    $cd catkin_ws/src
+    $git clone https://github.com/Kazuki101/robosys2020_task2.git
+### ビルド
+    $catkin build
+### 実行
+    $roslaunch color_mono 
