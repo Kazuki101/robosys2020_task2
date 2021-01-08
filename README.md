@@ -20,3 +20,4 @@ mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなど
 
     $roslaunch color_mono mono.launch
 ## 動画のリンク
+https://youtu.be/yxHQgNMbwm8
