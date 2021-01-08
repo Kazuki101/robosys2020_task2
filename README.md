@@ -20,6 +20,6 @@ mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなど
 
     $roslaunch color_mono mono.launch
 ## 二値化の閾値について
-sub.pyの
+sub.pyの12行目のmono = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)の125を0~255の間で任意に変化させることで白と黒の判定基準を自由に変更することができます。
 ## 動画のリンク
 https://youtu.be/yxHQgNMbwm8
