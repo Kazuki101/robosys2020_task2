@@ -17,5 +17,6 @@ ROSを既にインストールしていて, ターミナルでroscoreを打っ�
 ### 実行
 mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなども必要なく以下のコマンドを実行するだけで全部起動することができます。
 始めはカラーとグレースケール, モノクロでそれぞれパブリッシュしようとしていましたが, サブスクライバ側で変換させることでパブリッシュ側からの送るnodeを1個に減らしました。
+
     $roslaunch color_mono mono.launch
 ## 動画のリンク
