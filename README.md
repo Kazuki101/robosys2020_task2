@@ -17,5 +17,6 @@ ROSを既にインストールしていて, ターミナルでroscoreを打っ�
     $catkin build
 ### 実行
 mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなども必要なく以下のコマンドを実行するだけで全部起動することができます。
+
     $roslaunch color_mono mono.launch
 ## 動画のリンク
