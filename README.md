@@ -19,5 +19,7 @@ ROSを既にインストールしていて, ターミナルでroscoreを打っ�
 mono.launchにcamera_node.launchとpub.py, sub.pyを纏めたのでroscoreなども必要なく以下のコマンドを実行するだけで全部起動することができます。
 
     $roslaunch color_mono mono.launch
+## 二値化の閾値について
+sub.pyの
 ## 動画のリンク
 https://youtu.be/yxHQgNMbwm8
