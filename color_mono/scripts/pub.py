@@ -6,9 +6,6 @@ from cv_bridge import CvBridge
 
 def img_pub(msg):
     try:
-        bridge = CvBridge()
-        img = bridge.imgmsg_to_cv2(msg, "bgr8")
-        msg = bridge.cv2_to_imgmsg(img, "bgr8")
         pub = rospy.Publisher('image_color', Image, queue_size=10)
         pub.publish(msg)
     except Exception as err:

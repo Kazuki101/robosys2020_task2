@@ -9,7 +9,7 @@ def img_sub(msg):
         bridge = CvBridge()
         color = bridge.imgmsg_to_cv2(msg, "bgr8")
         gray = cv2.cvtColor(color, cv2.COLOR_BGR2GRAY)
-        _, mono = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY)
+        _, mono = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)
 
         cv2.imshow('color', color)
         cv2.imshow('gray', gray)
